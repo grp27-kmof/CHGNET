@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-10-20T17:47:35.125028+00:00",
+  "platform": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "python": "3.11.17 (main, Oct 13 2026, 16:38:53) [Clang 21.1.8 ]",
+    "processor": "arm"
+  },
+  "software": {
+    "chgnet": "0.4.2",
+    "torch": "2.14.1",
+    "cuda_available": false,
+    "numpy": "2.4.6",
+    "ase": "3.29.0",
+    "pymatgen": "2026.9.24",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6"
+  },
+  "git_commit": null,
+  "random_seed": 42,
+  "md": {
+    "temperature_K": 300,
+    "timestep_fs": 1,
+    "stage1_ps": 10,
+    "stage2_ps": 50,
+    "thermostat_equil": "Berendsen",
+    "thermostat_production": "Nose-Hoover",
+    "equilibration_fraction": 0.2
+  },
+  "optimization": {
+    "force_tol_ev_a": 0.01,
+    "force_tol_loose_ev_a": 0.05,
+    "max_steps": 3000,
+    "relax_cell": false
+  },
+  "adsorption": {
+    "algorithm_version": "adsorption_v4",
+    "reference": "bulk",
+    "max_raw_candidates": 800,
+    "max_unique_candidates": 400,
+    "parallel_workers": 1
+  },
+  "diffusion": {
+    "accept_r2": 0.9,
+    "min_fit_points": 50,
+    "dimensions": 3,
+    "min_slope_tstat": 2.0
+  },
+  "scoring_weights": {
+    "adsorption": 0.4,
+    "stability": 0.35,
+    "msd": 0.2,
+    "confidence": 0.05,
+    "diffusion": 0.0,
+    "volume": 0.0
+  },
+  "msi_weights": {
+    "rmsd": 0.25,
+    "bond": 0.25,
+    "displacement": 0.15,
+    "coordination": 0.15,
+    "energy": 0.1,
+    "volume": 0.1
+  },
+  "cli_args": {
+    "device": "mps",
+    "reference": "bulk",
+    "structures_dir": "outputs/structures",
+    "benchmark": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mof_name": "cds-b+N710+N302+E0_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.8409299850463867,
+  "voltage_1K_V": 2.8409299850463867,
+  "E_complex_eV": -748.6143188476562,
+  "E_bare_eV": -744.6865844726562,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "pore_grid",
+  "K_O_min_dist_A": 2.6964647399993087,
+  "K_coordination": 4,
+  "min_K_framework_dist_A": 2.6964647399993105,
+  "framework_rmsd_A": 0.07159609222616597,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.04979320988059044,
+  "max_force_K_only": 0.028378138318657875,
+  "n_candidates_found": 101,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.7830076217651367,
+    -2.8409299850463867,
+    -2.8384275436401367
+  ],
+  "wall_time_s": 67.27401554200333,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

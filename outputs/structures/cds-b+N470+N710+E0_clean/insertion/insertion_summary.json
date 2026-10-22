@@ -1,0 +1,60 @@
+{
+  "mof_name": "cds-b+N470+N710+E0_clean",
+  "n_max_stable": 9,
+  "stop_reason": "not_converged",
+  "hull_points": [
+    [
+      0,
+      0.0
+    ],
+    [
+      1,
+      -2.8007078170776367
+    ],
+    [
+      2,
+      -5.511327743530273
+    ],
+    [
+      3,
+      -7.93654727935791
+    ],
+    [
+      7,
+      -17.475132942199707
+    ],
+    [
+      8,
+      -19.279502868652344
+    ],
+    [
+      9,
+      -20.99036693572998
+    ]
+  ],
+  "plateau_voltages_V": [
+    2.8007078170776367,
+    2.7106199264526367,
+    2.4252195358276367,
+    2.384646415710449,
+    1.8043699264526367,
+    1.7108640670776367
+  ],
+  "average_voltage_V": 2.3322629928588867,
+  "capacity_at_n_max_stable_mAh_g": 157.87413108898278,
+  "capacity_below_threshold_mAh_g": 0.0,
+  "v_threshold_V": 1.0,
+  "max_volume_expansion_percent": 2.0082878788307097,
+  "M_cell_g_mol": 1527.85639,
+  "voltages_calibrated": false,
+  "settings": {
+    "n_max": 12,
+    "n_prescreen": 8,
+    "n_full": 2,
+    "min_kk": 3.8,
+    "v_threshold": 1.0,
+    "fmax": 0.05,
+    "max_steps": 1500
+  },
+  "total_wall_time_s": 711.6074550420162
+}

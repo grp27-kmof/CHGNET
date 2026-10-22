@@ -1,0 +1,241 @@
+2026-10-20 22:12:29,220 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 22:12:29,221 | INFO | ==============================================================
+2026-10-20 22:12:29,221 | INFO | CHGNet MOF Screening — Independent Parameter Analysis
+2026-10-20 22:12:29,221 | INFO | ==============================================================
+2026-10-20 22:12:29,221 | INFO | Structures dir : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/outputs/structures
+2026-10-20 22:12:29,221 | INFO | Device         : mps
+2026-10-20 22:12:29,221 | INFO | K reference    : bulk
+2026-10-20 22:12:29,222 | INFO | Best-CIF top-N : 10
+2026-10-20 22:12:29,222 | INFO | Parameters     : Adsorption Energy | MSD | Mechanical Stability (mech_stabb)
+2026-10-20 22:12:29,222 | INFO | Found 11 MOF directories to process
+2026-10-20 22:12:29,222 | INFO | Isolated K energy from isolated_K_energy.json: -0.603606 eV
+2026-10-20 22:12:29,231 | INFO | -- Analysing: HKUST1
+2026-10-20 22:12:29,232 | WARNING |   K-inserted optimised CIF not found — skipping HKUST1
+2026-10-20 22:12:29,232 | INFO | -- Analysing: UiO-66
+2026-10-20 22:12:29,233 | WARNING |   K-inserted optimised CIF not found — skipping UiO-66
+2026-10-20 22:12:29,233 | INFO | -- Analysing: cds+N193+E0_clean
+2026-10-20 22:12:29,233 | WARNING |   K-inserted optimised CIF not found — skipping cds+N193+E0_clean
+2026-10-20 22:12:29,233 | INFO | -- Analysing: cds-b+N317+N302+E0_clean
+2026-10-20 22:12:29,233 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N317+N302+E0_clean
+2026-10-20 22:12:29,234 | INFO | -- Analysing: cds-b+N470+N710+E0_clean
+2026-10-20 22:12:29,234 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N470+N710+E0_clean
+2026-10-20 22:12:29,234 | INFO | -- Analysing: cds-b+N710+N302+E0_clean
+2026-10-20 22:12:29,234 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N710+N302+E0_clean
+2026-10-20 22:12:29,234 | INFO | -- Analysing: fsc+N564+N85+E0+E163_clean
+2026-10-20 22:12:29,276 | INFO |   [1] Adsorption energy : -2.6917 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:12:29,277 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.75 Å)
+2026-10-20 22:12:29,278 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:12:29,532 | INFO | Bonding model for fsc+N564+N85+E0+E163_clean uses CrystalNN (82 bonds)
+2026-10-20 22:12:37,205 | WARNING | MD warning for fsc+N564+N85+E0+E163_clean: high maximum force = 5.995 eV/Å
+2026-10-20 22:12:38,924 | INFO | MD analysis: stability=Stable (MSI=0.786), RMSD=0.502 A, MSD(K)=0.730 A^2
+2026-10-20 22:12:39,244 | INFO |   [3] Mech. stability   : Stable  (mech_stabb=0.7859, RMSD=0.502 Å, coord=0.95)
+2026-10-20 22:12:41,113 | INFO |   [2] MSD (framework-relative, production avg) : 0.7096 Å²  (equilibrated from 0.5 ps)
+2026-10-20 22:12:41,362 | INFO | -- Analysing: mot+N13+N153+E0+E185_clean
+2026-10-20 22:12:41,363 | WARNING |   K-inserted optimised CIF not found — skipping mot+N13+N153+E0+E185_clean
+2026-10-20 22:12:41,363 | INFO | -- Analysing: pcu+N336+E113_clean
+2026-10-20 22:12:41,363 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N336+E113_clean
+2026-10-20 22:12:41,363 | INFO | -- Analysing: pcu+N480+E48_clean
+2026-10-20 22:12:41,378 | INFO |   [1] Adsorption energy : -2.8458 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:12:41,378 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.32 Å)
+2026-10-20 22:12:41,379 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:12:41,599 | INFO | Bonding model for pcu+N480+E48_clean uses CrystalNN (71 bonds)
+2026-10-20 22:12:50,382 | WARNING | MD warning for pcu+N480+E48_clean: high maximum force = 6.133 eV/Å
+2026-10-20 22:12:52,084 | INFO | MD analysis: stability=Marginal (MSI=0.580), RMSD=1.423 A, MSD(K)=2.080 A^2
+2026-10-20 22:12:52,364 | INFO |   [3] Mech. stability   : Marginal  (mech_stabb=0.5803, RMSD=1.423 Å, coord=0.86)
+2026-10-20 22:12:54,247 | INFO |   [2] MSD (framework-relative, production avg) : 1.4967 Å²  (equilibrated from 0.5 ps)
+2026-10-20 22:12:54,476 | INFO | -- Analysing: pcu+N85+E0_clean
+2026-10-20 22:12:54,476 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N85+E0_clean
+2026-10-20 22:12:54,480 | INFO | Best-CIF CSV written to outputs/best_cif.csv (0 entries)
+2026-10-20 22:12:54,480 | INFO | Analysis complete. Results written to outputs/results.csv
+2026-10-20 22:20:30,650 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 22:20:30,651 | INFO | ==============================================================
+2026-10-20 22:20:30,651 | INFO | CHGNet MOF Screening — Independent Parameter Analysis
+2026-10-20 22:20:30,651 | INFO | ==============================================================
+2026-10-20 22:20:30,651 | INFO | Structures dir : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/outputs/structures
+2026-10-20 22:20:30,651 | INFO | Device         : mps
+2026-10-20 22:20:30,652 | INFO | K reference    : bulk
+2026-10-20 22:20:30,652 | INFO | Best-CIF top-N : 10
+2026-10-20 22:20:30,652 | INFO | Parameters     : Adsorption Energy | MSD | Mechanical Stability (mech_stabb)
+2026-10-20 22:20:30,652 | INFO | Found 11 MOF directories to process
+2026-10-20 22:20:30,652 | INFO | Isolated K energy from isolated_K_energy.json: -0.603606 eV
+2026-10-20 22:20:30,659 | INFO | -- Analysing: HKUST1
+2026-10-20 22:20:30,660 | WARNING |   K-inserted optimised CIF not found — skipping HKUST1
+2026-10-20 22:20:30,660 | INFO | -- Analysing: UiO-66
+2026-10-20 22:20:30,660 | WARNING |   K-inserted optimised CIF not found — skipping UiO-66
+2026-10-20 22:20:30,660 | INFO | -- Analysing: cds+N193+E0_clean
+2026-10-20 22:20:30,661 | WARNING |   K-inserted optimised CIF not found — skipping cds+N193+E0_clean
+2026-10-20 22:20:30,661 | INFO | -- Analysing: cds-b+N317+N302+E0_clean
+2026-10-20 22:20:30,661 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N317+N302+E0_clean
+2026-10-20 22:20:30,661 | INFO | -- Analysing: cds-b+N470+N710+E0_clean
+2026-10-20 22:20:30,661 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N470+N710+E0_clean
+2026-10-20 22:20:30,661 | INFO | -- Analysing: cds-b+N710+N302+E0_clean
+2026-10-20 22:20:30,661 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N710+N302+E0_clean
+2026-10-20 22:20:30,661 | INFO | -- Analysing: fsc+N564+N85+E0+E163_clean
+2026-10-20 22:20:30,698 | INFO |   [1] Adsorption energy : -2.6917 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:20:30,700 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.75 Å)
+2026-10-20 22:20:30,700 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:20:30,954 | INFO | Bonding model for fsc+N564+N85+E0+E163_clean uses CrystalNN (82 bonds)
+2026-10-20 22:20:38,456 | WARNING | MD warning for fsc+N564+N85+E0+E163_clean: high maximum force = 5.995 eV/Å
+2026-10-20 22:20:40,182 | INFO | MD analysis: stability=Stable (MSI=0.786), RMSD=0.502 A, MSD(K)=0.730 A^2
+2026-10-20 22:20:40,488 | INFO |   [3] Mech. stability   : Stable  (mech_stabb=0.7859, RMSD=0.502 Å, coord=0.95)
+2026-10-20 22:20:42,371 | INFO |   [2] MSD (framework-relative, production avg) : 0.7096 Å²  (equilibrated from 0.5 ps)
+2026-10-20 22:20:42,616 | INFO | -- Analysing: mot+N13+N153+E0+E185_clean
+2026-10-20 22:20:42,617 | WARNING |   K-inserted optimised CIF not found — skipping mot+N13+N153+E0+E185_clean
+2026-10-20 22:20:42,617 | INFO | -- Analysing: pcu+N336+E113_clean
+2026-10-20 22:20:42,617 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N336+E113_clean
+2026-10-20 22:20:42,617 | INFO | -- Analysing: pcu+N480+E48_clean
+2026-10-20 22:20:42,630 | INFO |   [1] Adsorption energy : -2.8458 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:20:42,631 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.32 Å)
+2026-10-20 22:20:42,631 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:20:42,848 | INFO | Bonding model for pcu+N480+E48_clean uses CrystalNN (71 bonds)
+2026-10-20 22:20:51,484 | WARNING | MD warning for pcu+N480+E48_clean: high maximum force = 6.133 eV/Å
+2026-10-20 22:20:53,186 | INFO | MD analysis: stability=Marginal (MSI=0.580), RMSD=1.423 A, MSD(K)=2.080 A^2
+2026-10-20 22:20:53,468 | INFO |   [3] Mech. stability   : Marginal  (mech_stabb=0.5803, RMSD=1.423 Å, coord=0.86)
+2026-10-20 22:20:55,365 | INFO |   [2] MSD (framework-relative, production avg) : 1.4967 Å²  (equilibrated from 0.5 ps)
+2026-10-20 22:20:55,600 | INFO | -- Analysing: pcu+N85+E0_clean
+2026-10-20 22:20:55,600 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N85+E0_clean
+2026-10-20 22:20:55,603 | INFO | Best-CIF CSV written to outputs/best_cif.csv (0 entries)
+2026-10-20 22:20:55,603 | INFO | Analysis complete. Results written to outputs/results.csv
+2026-10-20 22:35:52,247 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 22:35:52,248 | INFO | ==============================================================
+2026-10-20 22:35:52,248 | INFO | CHGNet MOF Screening — Independent Parameter Analysis
+2026-10-20 22:35:52,248 | INFO | ==============================================================
+2026-10-20 22:35:52,249 | INFO | Structures dir : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/outputs/structures
+2026-10-20 22:35:52,249 | INFO | Device         : mps
+2026-10-20 22:35:52,249 | INFO | K reference    : bulk
+2026-10-20 22:35:52,249 | INFO | Best-CIF top-N : 10
+2026-10-20 22:35:52,249 | INFO | Parameters     : Adsorption Energy | MSD | Mechanical Stability (mech_stabb)
+2026-10-20 22:35:52,249 | INFO | Found 11 MOF directories to process
+2026-10-20 22:35:52,249 | INFO | Isolated K energy from isolated_K_energy.json: -0.603606 eV
+2026-10-20 22:35:52,257 | INFO | -- Analysing: HKUST1
+2026-10-20 22:35:52,258 | WARNING |   K-inserted optimised CIF not found — skipping HKUST1
+2026-10-20 22:35:52,258 | INFO | -- Analysing: UiO-66
+2026-10-20 22:35:52,259 | WARNING |   K-inserted optimised CIF not found — skipping UiO-66
+2026-10-20 22:35:52,259 | INFO | -- Analysing: cds+N193+E0_clean
+2026-10-20 22:35:52,259 | WARNING |   K-inserted optimised CIF not found — skipping cds+N193+E0_clean
+2026-10-20 22:35:52,259 | INFO | -- Analysing: cds-b+N317+N302+E0_clean
+2026-10-20 22:35:52,260 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N317+N302+E0_clean
+2026-10-20 22:35:52,260 | INFO | -- Analysing: cds-b+N470+N710+E0_clean
+2026-10-20 22:35:52,260 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N470+N710+E0_clean
+2026-10-20 22:35:52,260 | INFO | -- Analysing: cds-b+N710+N302+E0_clean
+2026-10-20 22:35:52,261 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N710+N302+E0_clean
+2026-10-20 22:35:52,261 | INFO | -- Analysing: fsc+N564+N85+E0+E163_clean
+2026-10-20 22:35:52,303 | INFO |   [1] Adsorption energy : -2.6917 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:35:52,304 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.75 Å)
+2026-10-20 22:35:52,305 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:35:52,564 | INFO | Bonding model for fsc+N564+N85+E0+E163_clean uses CrystalNN (82 bonds)
+2026-10-20 22:36:00,224 | WARNING | MD warning for fsc+N564+N85+E0+E163_clean: high maximum force = 5.995 eV/Å
+2026-10-20 22:36:01,933 | INFO | MD analysis: stability=Stable (MSI=0.786), RMSD=0.502 A, MSD(K)=0.730 A^2
+2026-10-20 22:36:02,259 | INFO |   [3] Mech. stability   : Stable  (mech_stabb=0.7859, RMSD=0.502 Å, coord=0.95)
+2026-10-20 22:36:04,139 | INFO |   [2] MSD (framework-relative, production avg) : 0.7096 Å²  (equilibrated from 0.5 ps)
+2026-10-20 22:36:04,393 | INFO | -- Analysing: mot+N13+N153+E0+E185_clean
+2026-10-20 22:36:04,394 | WARNING |   K-inserted optimised CIF not found — skipping mot+N13+N153+E0+E185_clean
+2026-10-20 22:36:04,394 | INFO | -- Analysing: pcu+N336+E113_clean
+2026-10-20 22:36:04,394 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N336+E113_clean
+2026-10-20 22:36:04,394 | INFO | -- Analysing: pcu+N480+E48_clean
+2026-10-20 22:36:04,408 | INFO |   [1] Adsorption energy : -2.8458 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 22:36:04,408 | WARNING |   K insertion validation : k_overpacked (N_K=8, min K–K = 4.32 Å)
+2026-10-20 22:36:04,409 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 22:36:04,632 | INFO | Bonding model for pcu+N480+E48_clean uses CrystalNN (71 bonds)
+2026-10-20 22:36:04,636 | ERROR | MD analysis failed: index 69 is out of bounds for axis 0 with size 68
+2026-10-20 22:36:04,637 | WARNING |   [3] MD analysis failed for pcu+N480+E48_clean: index 69 is out of bounds for axis 0 with size 68
+2026-10-20 22:36:06,406 | ERROR |   [2/3] MSD / mechanical stability failed for pcu+N480+E48_clean: index 68 is out of bounds for axis 1 with size 68
+2026-10-20 22:36:06,412 | WARNING |   Plot generation failed for pcu+N480+E48_clean: index 68 is out of bounds for axis 0 with size 68
+2026-10-20 22:36:06,413 | INFO | -- Analysing: pcu+N85+E0_clean
+2026-10-20 22:36:06,415 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N85+E0_clean
+2026-10-20 22:36:06,419 | INFO | Best-CIF CSV written to outputs/best_cif.csv (0 entries)
+2026-10-20 22:36:06,419 | INFO | Analysis complete. Results written to outputs/results.csv
+2026-10-20 23:12:20,604 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 23:12:20,605 | INFO | ==============================================================
+2026-10-20 23:12:20,605 | INFO | CHGNet MOF Screening — Independent Parameter Analysis
+2026-10-20 23:12:20,605 | INFO | ==============================================================
+2026-10-20 23:12:20,606 | INFO | Structures dir : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/outputs/structures
+2026-10-20 23:12:20,606 | INFO | Device         : mps
+2026-10-20 23:12:20,606 | INFO | K reference    : bulk
+2026-10-20 23:12:20,606 | INFO | Best-CIF top-N : 10
+2026-10-20 23:12:20,606 | INFO | Parameters     : Adsorption Energy | MSD | Mechanical Stability (mech_stabb)
+2026-10-20 23:12:20,606 | INFO | Found 11 MOF directories to process
+2026-10-20 23:12:20,607 | INFO | Isolated K energy from isolated_K_energy.json: -0.603606 eV
+2026-10-20 23:12:20,615 | INFO | -- Analysing: HKUST1
+2026-10-20 23:12:20,616 | WARNING |   K-inserted optimised CIF not found — skipping HKUST1
+2026-10-20 23:12:20,616 | INFO | -- Analysing: UiO-66
+2026-10-20 23:12:20,617 | WARNING |   K-inserted optimised CIF not found — skipping UiO-66
+2026-10-20 23:12:20,617 | INFO | -- Analysing: cds+N193+E0_clean
+2026-10-20 23:12:20,617 | WARNING |   K-inserted optimised CIF not found — skipping cds+N193+E0_clean
+2026-10-20 23:12:20,617 | INFO | -- Analysing: cds-b+N317+N302+E0_clean
+2026-10-20 23:12:20,617 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N317+N302+E0_clean
+2026-10-20 23:12:20,617 | INFO | -- Analysing: cds-b+N470+N710+E0_clean
+2026-10-20 23:12:20,618 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N470+N710+E0_clean
+2026-10-20 23:12:20,618 | INFO | -- Analysing: cds-b+N710+N302+E0_clean
+2026-10-20 23:12:20,618 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N710+N302+E0_clean
+2026-10-20 23:12:20,618 | INFO | -- Analysing: fsc+N564+N85+E0+E163_clean
+2026-10-20 23:12:20,659 | INFO |   [1] Adsorption energy : -2.6917 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 23:12:20,660 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 23:12:20,662 | INFO | Loaded cached bulk BCC K energy: -1.0868 eV/atom
+2026-10-20 23:12:20,922 | INFO | Bonding model for fsc+N564+N85+E0+E163_clean uses CrystalNN (82 bonds)
+2026-10-20 23:13:09,029 | INFO | MD analysis: stability=Stable (MSI=0.785), RMSD=0.492 A, MSD(K)=0.730 A^2
+2026-10-20 23:13:09,342 | INFO |   [3] Mech. stability   : Stable  (mech_stabb=0.7849, RMSD=0.492 Å, coord=0.95)
+2026-10-20 23:13:11,214 | INFO |   [2] MSD (framework-relative, production avg) : 0.7096 Å²  (equilibrated from 0.5 ps)
+2026-10-20 23:13:11,468 | INFO | -- Analysing: mot+N13+N153+E0+E185_clean
+2026-10-20 23:13:11,469 | WARNING |   K-inserted optimised CIF not found — skipping mot+N13+N153+E0+E185_clean
+2026-10-20 23:13:11,469 | INFO | -- Analysing: pcu+N336+E113_clean
+2026-10-20 23:13:11,469 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N336+E113_clean
+2026-10-20 23:13:11,469 | INFO | -- Analysing: pcu+N480+E48_clean
+2026-10-20 23:13:11,483 | INFO |   [1] Adsorption energy : -2.8458 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 23:13:11,484 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 23:13:11,485 | WARNING | Optimized CIF species/atom count does not match trajectory frame 0; using frame 0 for indexing and its stored energy.
+2026-10-20 23:13:11,721 | INFO | Bonding model for pcu+N480+E48_clean uses CrystalNN (69 bonds)
+2026-10-20 23:14:00,373 | INFO | MD analysis: stability=Marginal (MSI=0.574), RMSD=1.364 A, MSD(K)=3.749 A^2
+2026-10-20 23:14:00,652 | INFO |   [3] Mech. stability   : Marginal  (mech_stabb=0.5741, RMSD=1.364 Å, coord=0.79)
+2026-10-20 23:14:02,521 | INFO |   [2] MSD (framework-relative, production avg) : 2.0824 Å²  (equilibrated from 0.5 ps)
+2026-10-20 23:14:02,747 | INFO | -- Analysing: pcu+N85+E0_clean
+2026-10-20 23:14:02,748 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N85+E0_clean
+2026-10-20 23:14:02,752 | INFO | Best-CIF CSV written to outputs/best_cif.csv (0 entries)
+2026-10-20 23:14:02,752 | INFO | Analysis complete. Results written to outputs/results.csv
+2026-10-20 23:17:35,170 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 23:17:35,171 | INFO | ==============================================================
+2026-10-20 23:17:35,171 | INFO | CHGNet MOF Screening — Independent Parameter Analysis
+2026-10-20 23:17:35,171 | INFO | ==============================================================
+2026-10-20 23:17:35,171 | INFO | Structures dir : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/outputs/structures
+2026-10-20 23:17:35,171 | INFO | Device         : mps
+2026-10-20 23:17:35,171 | INFO | K reference    : bulk
+2026-10-20 23:17:35,171 | INFO | Best-CIF top-N : 10
+2026-10-20 23:17:35,171 | INFO | Parameters     : Adsorption Energy | MSD | Mechanical Stability (mech_stabb)
+2026-10-20 23:17:35,171 | INFO | Found 11 MOF directories to process
+2026-10-20 23:17:35,172 | INFO | Isolated K energy from isolated_K_energy.json: -0.603606 eV
+2026-10-20 23:17:35,179 | INFO | -- Analysing: HKUST1
+2026-10-20 23:17:35,180 | WARNING |   K-inserted optimised CIF not found — skipping HKUST1
+2026-10-20 23:17:35,180 | INFO | -- Analysing: UiO-66
+2026-10-20 23:17:35,181 | WARNING |   K-inserted optimised CIF not found — skipping UiO-66
+2026-10-20 23:17:35,181 | INFO | -- Analysing: cds+N193+E0_clean
+2026-10-20 23:17:35,181 | WARNING |   K-inserted optimised CIF not found — skipping cds+N193+E0_clean
+2026-10-20 23:17:35,181 | INFO | -- Analysing: cds-b+N317+N302+E0_clean
+2026-10-20 23:17:35,182 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N317+N302+E0_clean
+2026-10-20 23:17:35,182 | INFO | -- Analysing: cds-b+N470+N710+E0_clean
+2026-10-20 23:17:35,182 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N470+N710+E0_clean
+2026-10-20 23:17:35,182 | INFO | -- Analysing: cds-b+N710+N302+E0_clean
+2026-10-20 23:17:35,182 | WARNING |   K-inserted optimised CIF not found — skipping cds-b+N710+N302+E0_clean
+2026-10-20 23:17:35,182 | INFO | -- Analysing: fsc+N564+N85+E0+E163_clean
+2026-10-20 23:17:35,221 | INFO |   [1] Adsorption energy : -2.6917 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 23:17:35,222 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 23:17:35,224 | INFO | Loaded cached bulk BCC K energy: -1.0868 eV/atom
+2026-10-20 23:17:35,485 | INFO | Bonding model for fsc+N564+N85+E0+E163_clean uses CrystalNN (82 bonds)
+2026-10-20 23:18:23,877 | INFO | MD analysis: stability=Stable (MSI=0.785), RMSD=0.492 A, MSD(K)=0.730 A^2
+2026-10-20 23:18:24,192 | INFO |   [3] Mech. stability   : Stable  (mech_stabb=0.7849, RMSD=0.492 Å, coord=0.95)
+2026-10-20 23:18:26,082 | INFO |   [2] MSD (framework-relative, production avg) : 0.7096 Å²  (equilibrated from 0.5 ps)
+2026-10-20 23:18:26,332 | INFO | -- Analysing: mot+N13+N153+E0+E185_clean
+2026-10-20 23:18:26,332 | WARNING |   K-inserted optimised CIF not found — skipping mot+N13+N153+E0+E185_clean
+2026-10-20 23:18:26,333 | INFO | -- Analysing: pcu+N336+E113_clean
+2026-10-20 23:18:26,333 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N336+E113_clean
+2026-10-20 23:18:26,333 | INFO | -- Analysing: pcu+N480+E48_clean
+2026-10-20 23:18:26,346 | INFO |   [1] Adsorption energy : -2.8458 eV/K  (Strong, site=electrostatic_minimum, ref=bulk, N_K=8)
+2026-10-20 23:18:26,347 | INFO |   Using stage1 trajectory (10001 frames)
+2026-10-20 23:18:26,348 | WARNING | Optimized CIF species/atom count does not match trajectory frame 0; using frame 0 for indexing and its stored energy.
+2026-10-20 23:18:26,573 | INFO | Bonding model for pcu+N480+E48_clean uses CrystalNN (69 bonds)
+2026-10-20 23:19:15,424 | INFO | MD analysis: stability=Marginal (MSI=0.574), RMSD=1.364 A, MSD(K)=3.749 A^2
+2026-10-20 23:19:15,705 | INFO |   [3] Mech. stability   : Marginal  (mech_stabb=0.5741, RMSD=1.364 Å, coord=0.79)
+2026-10-20 23:19:17,584 | INFO |   [2] MSD (framework-relative, production avg) : 2.0824 Å²  (equilibrated from 0.5 ps)
+2026-10-20 23:19:17,816 | INFO | -- Analysing: pcu+N85+E0_clean
+2026-10-20 23:19:17,816 | WARNING |   K-inserted optimised CIF not found — skipping pcu+N85+E0_clean
+2026-10-20 23:19:17,821 | INFO | Best-CIF CSV written to outputs/best_cif.csv (0 entries)
+2026-10-20 23:19:17,821 | INFO | Analysis complete. Results written to outputs/results.csv

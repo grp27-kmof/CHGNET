@@ -1,0 +1,36 @@
+{
+  "mof_name": "cds-b+N470+N710+E0_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.014771638438105583,
+  "n_steps": 2000,
+  "used_fallback": true,
+  "hit_max_steps": true,
+  "min_dist_initial_A": 0.943195972604086,
+  "energy_initial_eV": -710.066162109375,
+  "energy_final_eV": -751.779541015625,
+  "energy_per_atom_final_eV": -7.228649432842548,
+  "volume_initial_A3": 1927.7803981227646,
+  "volume_final_A3": 1918.4341776432516,
+  "volume_change_percent": -0.4848176944124025,
+  "lattice_initial": {
+    "a": 11.324,
+    "b": 11.112,
+    "c": 15.865,
+    "alpha": 90.001,
+    "beta": 104.821,
+    "gamma": 87.397
+  },
+  "lattice_final": {
+    "a": 11.266413311348265,
+    "b": 11.100731418689346,
+    "c": 15.872929901824637,
+    "alpha": 88.65122887928602,
+    "beta": 104.64236064711658,
+    "gamma": 87.99827718509584
+  },
+  "k_cif_cell_mismatch": false,
+  "wall_time_s": 171.00165487499908,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

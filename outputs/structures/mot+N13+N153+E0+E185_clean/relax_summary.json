@@ -1,0 +1,36 @@
+{
+  "mof_name": "mot+N13+N153+E0+E185_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.01511529553681612,
+  "n_steps": 2000,
+  "used_fallback": true,
+  "hit_max_steps": true,
+  "min_dist_initial_A": 1.0339287417610232,
+  "energy_initial_eV": -556.6842651367188,
+  "energy_final_eV": -572.2409057617188,
+  "energy_per_atom_final_eV": -6.978547631240472,
+  "volume_initial_A3": 2263.6798211643313,
+  "volume_final_A3": 2450.676073172689,
+  "volume_change_percent": 8.260720012610951,
+  "lattice_initial": {
+    "a": 14.763,
+    "b": 14.762999999999998,
+    "c": 10.51,
+    "alpha": 96.19,
+    "beta": 96.19,
+    "gamma": 90.26
+  },
+  "lattice_final": {
+    "a": 15.092628286120991,
+    "b": 15.028358323966522,
+    "c": 10.966223060286449,
+    "alpha": 97.336664559396,
+    "beta": 96.56487108729738,
+    "gamma": 89.70963656545321
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 139.77668462501606,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

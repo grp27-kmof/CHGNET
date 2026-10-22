@@ -1,0 +1,9 @@
+{
+  "energy": -511.34271240234375,
+  "n_steps": 365,
+  "max_force": 0.008095732890069485,
+  "success": true,
+  "converged": true,
+  "fmax_target": 0.01,
+  "method": "fixed_framework_k_relaxation"
+}

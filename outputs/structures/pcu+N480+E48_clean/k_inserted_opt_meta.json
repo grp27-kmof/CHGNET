@@ -1,0 +1,9 @@
+{
+  "energy": -454.1958312988281,
+  "n_steps": 459,
+  "max_force": 0.009045438840985298,
+  "success": true,
+  "converged": true,
+  "fmax_target": 0.01,
+  "fmax_used": 0.01
+}

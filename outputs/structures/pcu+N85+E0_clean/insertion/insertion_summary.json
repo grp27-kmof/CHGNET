@@ -1,0 +1,50 @@
+{
+  "mof_name": "pcu+N85+E0_clean",
+  "n_max_stable": 4,
+  "stop_reason": "no_site",
+  "hull_points": [
+    [
+      0,
+      0.0
+    ],
+    [
+      1,
+      -2.8303709030151367
+    ],
+    [
+      2,
+      -4.946447372436523
+    ],
+    [
+      3,
+      -6.368874549865723
+    ],
+    [
+      4,
+      -7.463481903076172
+    ]
+  ],
+  "plateau_voltages_V": [
+    2.8303709030151367,
+    2.1160764694213867,
+    1.4224271774291992,
+    1.0946073532104492
+  ],
+  "average_voltage_V": 1.865870475769043,
+  "capacity_at_n_max_stable_mAh_g": 231.52215472048283,
+  "capacity_below_threshold_mAh_g": 0.0,
+  "v_threshold_V": 1.0,
+  "max_volume_expansion_percent": 0.710585084457298,
+  "M_cell_g_mol": 463.03992000000005,
+  "voltages_calibrated": false,
+  "settings": {
+    "n_max": 12,
+    "n_prescreen": 8,
+    "n_full": 2,
+    "min_kk": 3.8,
+    "v_threshold": 1.0,
+    "fmax": 0.05,
+    "max_steps": 1500
+  },
+  "total_wall_time_s": 161.40380000000005
+}

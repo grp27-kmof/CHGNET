@@ -1,0 +1,36 @@
+{
+  "mof_name": "pcu+N336+E113_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.009724775329232216,
+  "n_steps": 1549,
+  "used_fallback": false,
+  "hit_max_steps": false,
+  "min_dist_initial_A": 0.9491277351459358,
+  "energy_initial_eV": -679.8993530273438,
+  "energy_final_eV": -698.898193359375,
+  "energy_per_atom_final_eV": -6.8519430721507355,
+  "volume_initial_A3": 4689.3928959497625,
+  "volume_final_A3": 4895.876839474563,
+  "volume_change_percent": 4.403212699518972,
+  "lattice_initial": {
+    "a": 15.133,
+    "b": 15.015999999999998,
+    "c": 20.884,
+    "alpha": 90.521,
+    "beta": 98.81200000000001,
+    "gamma": 89.765
+  },
+  "lattice_final": {
+    "a": 15.323215103760367,
+    "b": 15.289028401183383,
+    "c": 21.164726521467642,
+    "alpha": 90.31729934049065,
+    "beta": 99.10330688538134,
+    "gamma": 89.86543948294181
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 118.40203112497693,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

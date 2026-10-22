@@ -1,0 +1,65 @@
+{
+  "mof_name": "pcu+N480+E48_clean",
+  "n_max_stable": 8,
+  "stop_reason": "no_site",
+  "hull_points": [
+    [
+      0,
+      0.0
+    ],
+    [
+      1,
+      -2.8458433151245117
+    ],
+    [
+      2,
+      -5.515539169311523
+    ],
+    [
+      3,
+      -7.960381507873535
+    ],
+    [
+      4,
+      -10.072246551513672
+    ],
+    [
+      5,
+      -11.863982200622559
+    ],
+    [
+      6,
+      -13.45610237121582
+    ],
+    [
+      8,
+      -16.03240203857422
+    ]
+  ],
+  "plateau_voltages_V": [
+    2.8458433151245117,
+    2.6696958541870117,
+    2.4448423385620117,
+    2.1118650436401367,
+    1.7917356491088867,
+    1.5921201705932617,
+    1.2881498336791992
+  ],
+  "average_voltage_V": 2.0040502548217773,
+  "capacity_at_n_max_stable_mAh_g": 306.17064626770417,
+  "capacity_below_threshold_mAh_g": 0.0,
+  "v_threshold_V": 1.0,
+  "max_volume_expansion_percent": 2.4527635666122216,
+  "M_cell_g_mol": 700.28921,
+  "voltages_calibrated": false,
+  "settings": {
+    "n_max": 12,
+    "n_prescreen": 8,
+    "n_full": 2,
+    "min_kk": 3.8,
+    "v_threshold": 1.0,
+    "fmax": 0.05,
+    "max_steps": 1500
+  },
+  "total_wall_time_s": 497.8965189580049
+}

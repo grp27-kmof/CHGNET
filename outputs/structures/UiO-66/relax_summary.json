@@ -1,0 +1,36 @@
+{
+  "mof_name": "UiO-66",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.005288817919790745,
+  "n_steps": 438,
+  "used_fallback": false,
+  "hit_max_steps": false,
+  "min_dist_initial_A": 0.972588707619205,
+  "energy_initial_eV": -864.2672119140625,
+  "energy_final_eV": -865.4120483398438,
+  "energy_per_atom_final_eV": -7.5913337573670505,
+  "volume_initial_A3": 2159.5547477023597,
+  "volume_final_A3": 2286.8821679015687,
+  "volume_change_percent": 5.896003346739781,
+  "lattice_initial": {
+    "a": 14.50863,
+    "b": 14.50863,
+    "c": 14.50863,
+    "alpha": 59.99999999999999,
+    "beta": 59.99999999999999,
+    "gamma": 59.99999999999999
+  },
+  "lattice_final": {
+    "a": 14.788346661590639,
+    "b": 14.788346076331841,
+    "c": 14.788345211115395,
+    "alpha": 60.00000310364719,
+    "beta": 59.99999886896573,
+    "gamma": 59.99999133341227
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 43.88291166597628,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

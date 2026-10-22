@@ -1,0 +1,12 @@
+{
+  "pcu+N480+E48_clean": {
+    "stage1": {
+      "success": true,
+      "adsorption_energy_ev": -1.9974584579467773,
+      "stage": 1,
+      "screening_score": 32.10175298156733,
+      "status": "Complete",
+      "skipped": false
+    }
+  }
+}

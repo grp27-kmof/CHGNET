@@ -1,0 +1,36 @@
+{
+  "mof_name": "HKUST1",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.001146820723079145,
+  "n_steps": 479,
+  "used_fallback": false,
+  "hit_max_steps": false,
+  "min_dist_initial_A": 1.0928548274878718,
+  "energy_initial_eV": -1138.5521240234375,
+  "energy_final_eV": -1139.0067138671875,
+  "energy_per_atom_final_eV": -7.301325088892227,
+  "volume_initial_A3": 4546.397767429418,
+  "volume_final_A3": 4682.700751603487,
+  "volume_change_percent": 2.99804353131064,
+  "lattice_initial": {
+    "a": 18.59484,
+    "b": 18.5949,
+    "c": 18.59496,
+    "alpha": 59.99992000000001,
+    "beta": 60.000009999999996,
+    "gamma": 60.00034
+  },
+  "lattice_final": {
+    "a": 18.778859722428102,
+    "b": 18.77890341282299,
+    "c": 18.778955406809047,
+    "alpha": 59.99989515658845,
+    "beta": 59.99999279741796,
+    "gamma": 60.00027237922004
+  },
+  "k_cif_cell_mismatch": false,
+  "wall_time_s": 50.06401720800204,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

@@ -1,0 +1,34 @@
+{
+  "mof_name": "mot+N13+N153+E0+E185_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.4733152389526367,
+  "voltage_1K_V": 2.4733152389526367,
+  "E_complex_eV": -575.801025390625,
+  "E_bare_eV": -572.2409057617188,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "electrostatic_minimum",
+  "K_O_min_dist_A": 2.7871886922059907,
+  "K_coordination": 2,
+  "min_K_framework_dist_A": 2.78718869220599,
+  "framework_rmsd_A": 0.045430118067502905,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.04685710743069649,
+  "max_force_K_only": 0.02721582166850567,
+  "n_candidates_found": 216,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.4733152389526367,
+    -2.4531126022338867,
+    -2.4342527389526367
+  ],
+  "wall_time_s": 46.807865667011356,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mof_name": "cds-b+N470+N710+E0_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.8007078170776367,
+  "voltage_1K_V": 2.8007078170776367,
+  "E_complex_eV": -755.6670532226562,
+  "E_bare_eV": -751.779541015625,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "voronoi_void",
+  "K_O_min_dist_A": 2.687430257647316,
+  "K_coordination": 4,
+  "min_K_framework_dist_A": 2.6874302576473155,
+  "framework_rmsd_A": 0.04302950067726704,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.04974395036697388,
+  "max_force_K_only": 0.039707526564598083,
+  "n_candidates_found": 100,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.7980833053588867,
+    -2.8007078170776367,
+    -2.7293577194213867
+  ],
+  "wall_time_s": 59.33527366601629,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

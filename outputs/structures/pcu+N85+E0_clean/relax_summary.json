@@ -1,0 +1,36 @@
+{
+  "mof_name": "pcu+N85+E0_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.009865464642643929,
+  "n_steps": 298,
+  "used_fallback": false,
+  "hit_max_steps": false,
+  "min_dist_initial_A": 0.9488120401568308,
+  "energy_initial_eV": -232.57150268554688,
+  "energy_final_eV": -236.6103973388672,
+  "energy_per_atom_final_eV": -6.959129333496094,
+  "volume_initial_A3": 604.4593145653768,
+  "volume_final_A3": 629.336582787509,
+  "volume_change_percent": 4.1156232723487225,
+  "lattice_initial": {
+    "a": 6.641,
+    "b": 13.876000000000001,
+    "c": 6.599,
+    "alpha": 94.021,
+    "beta": 93.882,
+    "gamma": 92.573
+  },
+  "lattice_final": {
+    "a": 6.7093882554120805,
+    "b": 14.114989933710214,
+    "c": 6.684132779268061,
+    "alpha": 93.98881134436742,
+    "beta": 93.72175140259786,
+    "gamma": 92.62498454807421
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 20.195042291015852,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

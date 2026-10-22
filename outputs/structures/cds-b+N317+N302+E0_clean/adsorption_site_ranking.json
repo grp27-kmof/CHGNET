@@ -1,0 +1,35 @@
+{
+  "algorithm_version": "adsorption_k1_change_b",
+  "reference": "bulk",
+  "best_site_type": "pore_grid",
+  "best_adsorption_energy_ev": -2.1767454147338867,
+  "n_candidates_discovered": 16,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "sites": [
+    {
+      "candidate_id": 165,
+      "site_type": "electrostatic_minimum",
+      "pre_score": 0.5683142762897746,
+      "adsorption_energy_ev": -2.1755247116088867,
+      "final_fmax_eV_per_A": 0.04682330787181854,
+      "max_force_K_only": 0.0452570803463459
+    },
+    {
+      "candidate_id": 13,
+      "site_type": "pore_grid",
+      "pre_score": 0.6283622396849653,
+      "adsorption_energy_ev": -2.1767454147338867,
+      "final_fmax_eV_per_A": 0.04946731775999069,
+      "max_force_K_only": 0.022750068455934525
+    },
+    {
+      "candidate_id": 95,
+      "site_type": "voronoi_void",
+      "pre_score": 0.7216029636118083,
+      "adsorption_energy_ev": -2.1766843795776367,
+      "final_fmax_eV_per_A": 0.04975022375583649,
+      "max_force_K_only": 0.047113388776779175
+    }
+  ]
+}

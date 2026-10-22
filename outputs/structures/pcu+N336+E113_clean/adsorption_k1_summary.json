@@ -1,0 +1,34 @@
+{
+  "mof_name": "pcu+N336+E113_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.1216917037963867,
+  "voltage_1K_V": 2.1216917037963867,
+  "E_complex_eV": -702.106689453125,
+  "E_bare_eV": -698.898193359375,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "electrostatic_minimum",
+  "K_O_min_dist_A": 2.634679455116339,
+  "K_coordination": 3,
+  "min_K_framework_dist_A": 2.634679455116341,
+  "framework_rmsd_A": 0.020496336204371496,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.048677053302526474,
+  "max_force_K_only": 0.007859967648983002,
+  "n_candidates_found": 400,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.1216917037963867,
+    -2.1213865280151367,
+    -2.1152830123901367
+  ],
+  "wall_time_s": 54.024129375000484,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

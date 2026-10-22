@@ -1,0 +1,34 @@
+{
+  "mof_name": "pcu+N85+E0_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.8303709030151367,
+  "voltage_1K_V": 2.8303709030151367,
+  "E_complex_eV": -240.52757263183594,
+  "E_bare_eV": -236.6103973388672,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "electrostatic_minimum",
+  "K_O_min_dist_A": 2.8097646363181914,
+  "K_coordination": 4,
+  "min_K_framework_dist_A": 2.8097646363181914,
+  "framework_rmsd_A": 0.06349090396158785,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.04547223448753357,
+  "max_force_K_only": 0.033267535269260406,
+  "n_candidates_found": 43,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.829653739929199,
+    -2.8303709030151367,
+    -2.819521903991699
+  ],
+  "wall_time_s": 38.95807079100632,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

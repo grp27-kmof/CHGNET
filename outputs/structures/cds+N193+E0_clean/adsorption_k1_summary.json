@@ -1,0 +1,34 @@
+{
+  "mof_name": "cds+N193+E0_clean",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.8497190475463867,
+  "voltage_1K_V": 2.8497190475463867,
+  "E_complex_eV": -378.1683349609375,
+  "E_bare_eV": -374.2318115234375,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "voronoi_void",
+  "K_O_min_dist_A": 2.672292147846343,
+  "K_coordination": 2,
+  "min_K_framework_dist_A": 2.672292147846343,
+  "framework_rmsd_A": 0.0548186971554927,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.04011867195367813,
+  "max_force_K_only": 0.006115486845374107,
+  "n_candidates_found": 60,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.8471860885620117,
+    -2.8497190475463867,
+    -2.8467588424682617
+  ],
+  "wall_time_s": 48.83783400000539,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

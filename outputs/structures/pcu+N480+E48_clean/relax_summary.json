@@ -1,0 +1,36 @@
+{
+  "mof_name": "pcu+N480+E48_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.013059978373348713,
+  "n_steps": 2000,
+  "used_fallback": true,
+  "hit_max_steps": true,
+  "min_dist_initial_A": 1.088694824992609,
+  "energy_initial_eV": -434.0910339355469,
+  "energy_final_eV": -434.339111328125,
+  "energy_per_atom_final_eV": -7.005469537550403,
+  "volume_initial_A3": 1194.147163091001,
+  "volume_final_A3": 1145.5503113647662,
+  "volume_change_percent": -4.0695864989072,
+  "lattice_initial": {
+    "a": 9.99498396,
+    "b": 12.87007033,
+    "c": 9.85966441,
+    "alpha": 86.44131776,
+    "beta": 96.19609689,
+    "gamma": 108.6545112
+  },
+  "lattice_final": {
+    "a": 10.125195649229283,
+    "b": 12.461123277362352,
+    "c": 9.654109803785566,
+    "alpha": 85.73020344521252,
+    "beta": 98.47257994266883,
+    "gamma": 107.95627994606157
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 129.2884673330118,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

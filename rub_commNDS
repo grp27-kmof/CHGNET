@@ -1,0 +1,10 @@
+python run_md.py --bare inputs/bare_cifs_2 --k inputs/cifs_2
+python run_md.py --bare inputs/bare_cifs_3 --k inputs/cifs_3
+
+python run_md.py --retry retry_gpu.txt
+
+
+
+python run_md.py --bare inputs/bare_cifs --k inputs/cifs --device cpu
+conda activate myenv
+python run_md.py --bare inputs/bare_cifs_4 --k inputs/cifs_4 --device cpu

@@ -1,0 +1,20 @@
+2026-10-20 14:25:52,702 | INFO | Run manifest written: outputs/run_manifest.json
+2026-10-20 14:25:52,703 | INFO | ============================================================
+2026-10-20 14:25:52,703 | INFO | CHGNet MOF Screening — MD Simulation Runner
+2026-10-20 14:25:52,703 | INFO | ============================================================
+2026-10-20 14:25:52,703 | INFO | Bare CIFs (no K)     : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/inputs/bare_cifs
+2026-10-20 14:25:52,703 | INFO | K-inserted CIFs      : /Users/sharvanthikasivaraj/Desktop/Anode_MOF27/CHGNET/inputs/cifs
+2026-10-20 14:25:52,703 | INFO | Stage 1 MD   : 10.0 ps
+2026-10-20 14:25:52,703 | INFO | Stage 2 MD   : 50.0 ps
+2026-10-20 14:25:52,703 | INFO | Top %        : 20%
+2026-10-20 14:25:52,703 | INFO | Resume       : True
+2026-10-20 14:25:52,704 | INFO | Device       : mps
+2026-10-20 14:25:52,704 | INFO | K reference  : bulk
+2026-10-20 14:25:52,704 | INFO | Opt fmax     : 0.010 eV/Å
+2026-10-20 14:25:52,704 | INFO | Bare relax   : fmax=0.010 eV/Å, steps=2000, relax_cell=True
+2026-10-20 14:25:53,497 | INFO | Loading CHGNet model on mps
+2026-10-20 14:28:15,163 | WARNING | K-loaded CIF was built on unrelaxed cell; regenerate K positions on relaxed framework
+2026-10-20 14:28:15,167 | ERROR | cds+N193+E0_clean | bare relaxation failed: [Errno 2] No such file or directory: 'outputs/structures/cds+N193+E0_clean/bare_relaxed.cif'
+2026-10-20 14:29:32,203 | WARNING | K-loaded CIF was built on unrelaxed cell; regenerate K positions on relaxed framework
+2026-10-20 14:29:32,209 | ERROR | cds-b+N317+N302+E0_clean | bare relaxation failed: [Errno 2] No such file or directory: 'outputs/structures/cds-b+N317+N302+E0_clean/bare_relaxed.cif'
+2026-10-20 14:32:29,812 | ERROR | cds-b+N470+N710+E0_clean | bare relaxation failed: [Errno 2] No such file or directory: 'outputs/structures/cds-b+N470+N710+E0_clean/bare_relaxed.cif'

@@ -1,0 +1,14 @@
+2026-10-20 12:26:44,832 | INFO | ============================================================
+2026-10-20 12:26:44,832 | INFO | CHGNet MOF K-ion Battery Screening Pipeline
+2026-10-20 12:26:44,832 | INFO | ============================================================
+2026-10-20 12:26:44,832 | INFO | Stage 1: 10.0 ps MD | Stage 2: 50.0 ps MD | Top 20% advance
+2026-10-20 12:26:44,832 | INFO | CHGNet limitation: MLIP energies/MD are approximate vs DFT; short NVT trajectories may not fully sample slow K diffusion.
+2026-10-20 12:26:44,832 | ERROR | Bare CIF directory not found: inputs/bare_cifs
+2026-10-20 12:26:44,832 | ERROR | No valid MOF pairs found — exiting
+2026-10-20 12:26:58,795 | INFO | ============================================================
+2026-10-20 12:26:58,796 | INFO | CHGNet MOF K-ion Battery Screening Pipeline
+2026-10-20 12:26:58,796 | INFO | ============================================================
+2026-10-20 12:26:58,796 | INFO | Stage 1: 10.0 ps MD | Stage 2: 50.0 ps MD | Top 20% advance
+2026-10-20 12:26:58,796 | INFO | CHGNet limitation: MLIP energies/MD are approximate vs DFT; short NVT trajectories may not fully sample slow K diffusion.
+2026-10-20 12:26:58,796 | ERROR | Bare CIF directory not found: inputs/bare_cifs
+2026-10-20 12:26:58,796 | ERROR | No valid MOF pairs found — exiting

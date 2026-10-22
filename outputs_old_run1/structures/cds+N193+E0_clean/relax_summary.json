@@ -1,0 +1,35 @@
+{
+  "mof_name": "cds+N193+E0_clean",
+  "status": "not_relaxed",
+  "final_fmax_eV_per_A": 0.003059380454942584,
+  "n_steps": 1991,
+  "used_fallback": false,
+  "min_dist_initial_A": 0.9294965515345872,
+  "energy_initial_eV": -348.33148193359375,
+  "energy_final_eV": -374.23175048828125,
+  "energy_per_atom_final_eV": -6.930217601634838,
+  "volume_initial_A3": 1020.0074473110503,
+  "volume_final_A3": 935.5250443529408,
+  "volume_change_percent": -8.282528052204185,
+  "lattice_initial": {
+    "a": 7.229,
+    "b": 9.343,
+    "c": 16.559,
+    "alpha": 107.20099999999998,
+    "beta": 107.234,
+    "gamma": 86.453
+  },
+  "lattice_final": {
+    "a": 6.9038791995360125,
+    "b": 9.413138800372474,
+    "c": 16.062971748209407,
+    "alpha": 110.34807739689487,
+    "beta": 106.9548295092181,
+    "gamma": 86.1448514069187
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 141.67114374999073,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}

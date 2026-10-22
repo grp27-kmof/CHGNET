@@ -1,0 +1,34 @@
+{
+  "mof_name": "UiO-66",
+  "status": "ok",
+  "flags": [],
+  "E_ads_eV": -2.2363157272338867,
+  "voltage_1K_V": 2.2363157272338867,
+  "E_complex_eV": -868.7351684570312,
+  "E_bare_eV": -865.4120483398438,
+  "E_K_ref_eV_per_atom": -1.0868043899536133,
+  "best_site_type": "pore_grid",
+  "K_O_min_dist_A": 3.1671658832288365,
+  "K_coordination": 3,
+  "min_K_framework_dist_A": 2.959609377378884,
+  "framework_rmsd_A": 0.020482143570714397,
+  "bond_preservation": 1.0,
+  "final_fmax_eV_per_A": 0.048761460930109024,
+  "max_force_K_only": 0.048761460930109024,
+  "n_candidates_found": 20,
+  "n_prescreened": 16,
+  "n_full_relaxed": 3,
+  "all_site_energies": [
+    -2.2360715866088867,
+    -2.2363157272338867,
+    -2.2346677780151367
+  ],
+  "wall_time_s": 50.113255625008605,
+  "settings": {
+    "n_prescreen": 10,
+    "n_full": 3,
+    "fmax": 0.05,
+    "max_steps": 1000,
+    "reference": "bulk"
+  }
+}

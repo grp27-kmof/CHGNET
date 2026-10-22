@@ -1,0 +1,36 @@
+{
+  "mof_name": "fsc+N564+N85+E0+E163_clean",
+  "status": "relaxed",
+  "final_fmax_eV_per_A": 0.00825196411460638,
+  "n_steps": 2000,
+  "used_fallback": false,
+  "hit_max_steps": true,
+  "min_dist_initial_A": 0.9288013182476047,
+  "energy_initial_eV": -473.4351501464844,
+  "energy_final_eV": -488.3879699707031,
+  "energy_per_atom_final_eV": -7.078086521314538,
+  "volume_initial_A3": 1475.4749206209494,
+  "volume_final_A3": 1353.3250464342525,
+  "volume_change_percent": -8.278681831832866,
+  "lattice_initial": {
+    "a": 7.457,
+    "b": 8.920000000000002,
+    "c": 22.248999999999995,
+    "alpha": 94.29300000000002,
+    "beta": 91.12399999999998,
+    "gamma": 90.157
+  },
+  "lattice_final": {
+    "a": 6.539595837432975,
+    "b": 9.360721761805856,
+    "c": 22.212227900028466,
+    "alpha": 95.49592021149634,
+    "beta": 89.17455523359925,
+    "gamma": 89.83037407633165
+  },
+  "k_cif_cell_mismatch": true,
+  "wall_time_s": 142.28002308300347,
+  "fmax_target_eV_per_A": 0.01,
+  "max_steps": 2000,
+  "relax_cell": true
+}
