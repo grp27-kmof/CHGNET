@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+*.traj
+*.log
+*.pt
+*.pth
+*.ckpt
+cache/
+*_cache/
+md_8K_backup/
